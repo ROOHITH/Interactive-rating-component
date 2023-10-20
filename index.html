@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Latest version of Bootstrap 4.x (CSS and JavaScript) -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+
+     1 2 3 4 5 Submit
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    You selected
+    <!-- Add rating here -->
+
+    <div class="centered-div">
+      <div class="col-12 p-0">
+        <div class="img-bg-container d-flex justify-content-center align-items-center">
+          <img src="./images/icon-star.svg" alt="star" />
+        </div>
+      </div>
+      <div class="col-12 m-0 mt-3 p-0 d-flex justify-content-start align-items-center">
+        <span class="text-head ">How did we do?</span>
+      </div>
+
+      <div class="col-12 m-0 mt-2 p-0 d-flex justify-content-start align-items-center">
+        <p class="text-para ">Please let us know how we did with your support request. All
+          feedback is appreciated to help us improve our offering!</p>
+      </div>
+
+      <ul class="col-12 d-flex justify-content-center align-items-center flex-row">
+        <li id="_1" class="star">1</li>
+        <li id="_2" class="star">2</li>
+        <li id="_3" class="star">3</li>
+        <li id="_4" class="star">4</li>
+        <li id="_5" class="star">5</li>
+      </ul>
+      <div class="col-12 p-0 d-flex justify-content-center align-items-center ">
+        <button class="bt-sub">SUBMIT</button>
+      </div>
+    </div>
+
+    
+    <div class="centered-div div2">
+      <div class="col-12 p-0">
+        <div class=" d-flex justify-content-center align-items-center">
+          <img src="./images/illustration-thank-you.svg" alt="star" />
+        </div>
+      </div>
+      <div class="col-12 m-0 mt-3 p-0 d-flex justify-content-center align-items-center">
+        <span class="text-select ">You selected  <span class="count-text">0</span>   out of 5 </span>
+      </div>
+      <div class="col-12 m-0 mt-4 p-0 d-flex justify-content-center align-items-center">
+        <span class="text-head ">Thank you!</span>
+      </div>
+      <div class="col-12 m-0 mt-2 p-0 d-flex justify-content-center align-items-center text-center pad">
+        <p class="text-para ">
+          We appreciate you taking the time to give a rating. If
+             you ever need more support, don’t hesitate to get in touch!</p>
+      </div>
+
+    </div>
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rohith R</a>.
+    </div>
+  </body>
+  <!-- Latest version of jQuery 3.x -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+  <script src="main.js"></script>
+</html>
